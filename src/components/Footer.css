@@ -1,0 +1,53 @@
+.site-footer {
+  border-top: 1px solid rgba(197, 163, 90, 0.38);
+  color: rgba(8, 8, 8, 0.62);
+  background: var(--color-white);
+  font-size: 0.78rem;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+.footer-brand {
+  color: var(--color-black);
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3vw, 2.4rem);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer-intro {
+  max-width: 30rem;
+}
+
+.footer-socials .social-icon {
+  background: transparent;
+}
+
+.footer-heading {
+  margin-bottom: 1rem;
+  color: var(--color-gold-dark);
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.site-footer nav a,
+.footer-cta {
+  color: rgba(8, 8, 8, 0.72);
+  text-decoration: none;
+  transition: color 180ms ease;
+}
+
+.site-footer nav a:hover,
+.footer-cta:hover {
+  color: var(--color-gold-dark);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(197, 163, 90, 0.28);
+  color: rgba(8, 8, 8, 0.46);
+  font-size: 0.64rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}

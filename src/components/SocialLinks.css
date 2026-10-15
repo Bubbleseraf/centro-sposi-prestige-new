@@ -1,0 +1,36 @@
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.social-icon {
+  display: grid;
+  width: 2.5rem;
+  height: 2.5rem;
+  place-items: center;
+  border: 1px solid rgba(197, 163, 90, 0.62);
+  border-radius: 0;
+  color: var(--color-gold-dark);
+  background: var(--color-white);
+  font-size: 0.9rem;
+  transition: color 180ms ease, background 180ms ease, border-color 180ms ease;
+}
+
+.social-icon:hover {
+  border-color: var(--color-gold);
+  color: var(--color-black);
+  background: var(--color-gold);
+}
+
+@media (max-width: 575.98px) {
+  .social-links {
+    gap: 0.45rem;
+  }
+
+  .social-icon {
+    width: 2.25rem;
+    height: 2.25rem;
+    font-size: 0.8rem;
+  }
+}

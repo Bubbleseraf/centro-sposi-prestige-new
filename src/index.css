@@ -1,0 +1,67 @@
+:root {
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Montserrat", Arial, sans-serif;
+  --color-white: #ffffff;
+  --color-black: #080808;
+  --color-black-soft: #151515;
+  --color-gold: #c5a35a;
+  --color-gold-light: #e2ca91;
+  --color-gold-dark: #9b7938;
+
+  font-family: var(--font-body);
+  color: var(--color-black);
+  background: var(--color-white);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--color-white);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+select {
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+select:hover {
+  border-color: var(--color-gold) !important;
+}
+
+select:focus,
+select:focus-visible {
+  border-color: var(--color-gold-dark) !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(197, 163, 90, 0.2) !important;
+}
+
+select option:checked {
+  color: var(--color-black);
+  background: var(--color-gold-light);
+}
+
+::selection {
+  color: var(--color-black);
+  background: var(--color-gold-light);
+}

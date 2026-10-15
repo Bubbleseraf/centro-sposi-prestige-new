@@ -1,0 +1,5 @@
+.site-shell {
+  min-height: 100vh;
+  overflow-x: clip;
+  background: var(--color-white);
+}
